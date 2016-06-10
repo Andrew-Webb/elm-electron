@@ -1,0 +1,18 @@
+{
+  "name": "elm-electron",
+  "version": "1.0.0",
+  "description": "Starter Electron + Elm app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "elm": "elm make ./src/elm.elm --output ./src/elm.js"
+  },
+  "keywords": [
+    "Electron",
+    "Elm"
+  ],
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.0"
+  }
+}

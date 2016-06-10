@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <title>Electron + Elm</title>
+
+    <script type="text/javascript" src="src/elm.js"></script>
+  </head>
+
+  <body>
+    <h1>Electron + Elm</h1>
+
+      <!-- All of the Node.js APIs are available in this renderer process. -->
+      We are using node <script>document.write(process.versions.node)</script>,
+      Chromium <script>document.write(process.versions.chrome)</script>,
+      and Electron <script>document.write(process.versions.electron)</script>.
+
+      <br/ ><br/ >
+      <div id="container"></div>
+
+    </body>
+
+    <script type="text/javascript" src="src/ports.js"></script>
+</html>
