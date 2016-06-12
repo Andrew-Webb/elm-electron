@@ -1,6 +1,6 @@
 'use strict'
 
-var Elm = require('./src/elm');
+var Elm = require('./obj/elm');
 
 // get a reference to the div where we will show our UI
 let container = document.getElementById('container');

@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron main.js",
-    "elm": "elm make ./src/elm.elm --output ./src/elm.js"
+    "elm": "elm make ./src/elm.elm --output ./obj/elm.js"
   },
   "keywords": [
     "Electron",
