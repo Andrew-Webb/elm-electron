@@ -4,7 +4,7 @@
     "repository": "https://github.com/Andrew-Webb/elm-electron.git",
     "license": "BSD3",
     "source-directories": [
-        ".src"
+        "src"
     ],
     "exposed-modules": [],
     "dependencies": {

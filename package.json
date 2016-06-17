@@ -1,6 +1,7 @@
 {
   "name": "elm-electron",
   "version": "1.0.0",
+  "private": true,
   "description": "Starter Electron + Elm app",
   "main": "main.js",
   "scripts": {
